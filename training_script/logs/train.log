@@ -1,0 +1,17 @@
+2025-05-15 08:48:41,498 — __main__ — INFO — Generating synthetic data...
+2025-05-15 08:48:41,510 — __main__ — INFO — Generated 2000 samples
+2025-05-15 08:48:41,510 — __main__ — INFO — Preprocessing text...
+2025-05-15 08:52:35,530 — __main__ — INFO — Best Params: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}
+2025-05-15 08:52:35,533 — __main__ — INFO — Test Accuracy: 99.40%
+2025-05-15 08:52:35,535 — __main__ — INFO — 
+              precision    recall  f1-score   support
+
+    Negative       1.00      0.98      0.99       171
+     Neutral       0.98      1.00      0.99       158
+    Positive       1.00      1.00      1.00       171
+
+    accuracy                           0.99       500
+   macro avg       0.99      0.99      0.99       500
+weighted avg       0.99      0.99      0.99       500
+
+2025-05-15 08:52:35,557 — __main__ — INFO — Model and vectorizer saved in '/Users/sunnykumar/Desktop/Sentiment_Analysis_Project/training_script/models'
